@@ -7,21 +7,155 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E414C391EDD653D00AAB985 /* THExportProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C381EDD653D00AAB985 /* THExportProgressView.swift */; };
+		1E414C3B1EDD658900AAB985 /* THPlaybackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C3A1EDD658900AAB985 /* THPlaybackView.swift */; };
+		1E414C3D1EDDAD7B00AAB985 /* THTableSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C3C1EDDAD7B00AAB985 /* THTableSectionHeaderView.swift */; };
+		1E414C3F1EDDAF1E00AAB985 /* THThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C3E1EDDAF1E00AAB985 /* THThumbnailView.swift */; };
+		1E414C411EDDB01600AAB985 /* THTimelineItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C401EDDB01600AAB985 /* THTimelineItemView.swift */; };
+		1E414C431EDDB14800AAB985 /* THTransitionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C421EDDB14800AAB985 /* THTransitionButton.swift */; };
+		1E414C451EDDB1FB00AAB985 /* THVideoTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C441EDDB1FB00AAB985 /* THVideoTransition.swift */; };
+		1E414C471EDDC30500AAB985 /* THAppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C461EDDC30500AAB985 /* THAppSettings.swift */; };
+		1E414C491EDDC75B00AAB985 /* THAudioItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C481EDDC75B00AAB985 /* THAudioItem.swift */; };
+		1E414C4B1EDDC77800AAB985 /* THTimelineItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C4A1EDDC77800AAB985 /* THTimelineItem.swift */; };
+		1E414C4D1EDDC7DC00AAB985 /* THMediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C4C1EDDC7DC00AAB985 /* THMediaItem.swift */; };
+		1E414C4F1EDDD4EC00AAB985 /* THTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C4E1EDDD4EC00AAB985 /* THTimeline.swift */; };
+		1E414C511EDDD5EC00AAB985 /* THVideoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C501EDDD5EC00AAB985 /* THVideoItem.swift */; };
+		1E414C531EDDE4FD00AAB985 /* THVolumeAutomation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C521EDDE4FD00AAB985 /* THVolumeAutomation.swift */; };
+		1E414C571EDDE78700AAB985 /* THCompositionBuilderFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C561EDDE78700AAB985 /* THCompositionBuilderFactory.swift */; };
+		1E414C591EDDE8D900AAB985 /* THAdvancedComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C581EDDE8D900AAB985 /* THAdvancedComposition.swift */; };
+		1E414C5B1EDDE8E500AAB985 /* THAdvancedCompositionBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C5A1EDDE8E500AAB985 /* THAdvancedCompositionBuilder.swift */; };
+		1E414C5D1EDDE8F600AAB985 /* THBasicComposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C5C1EDDE8F600AAB985 /* THBasicComposition.swift */; };
+		1E414C5F1EDDE90300AAB985 /* THBasicCompositionBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C5E1EDDE90300AAB985 /* THBasicCompositionBuilder.swift */; };
+		1E414C611EDDE90F00AAB985 /* THTransitionInstructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C601EDDE90F00AAB985 /* THTransitionInstructions.swift */; };
+		1E414C631EDDE91C00AAB985 /* THTimelineBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C621EDDE91C00AAB985 /* THTimelineBuilder.swift */; };
+		1E414C661EDEF25E00AAB985 /* THTimelineItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C651EDEF25E00AAB985 /* THTimelineItemViewModel.swift */; };
+		1E414C681EDEF3C500AAB985 /* THVideoTransitionDurationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C671EDEF3C500AAB985 /* THVideoTransitionDurationViewModel.swift */; };
+		1E414C6A1EDEF49F00AAB985 /* THVideoTransitionTypeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C691EDEF49F00AAB985 /* THVideoTransitionTypeViewModel.swift */; };
+		1E414C6D1EDF022C00AAB985 /* THCompositionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C6C1EDF022C00AAB985 /* THCompositionLayer.swift */; };
+		1E414C6F1EDF023700AAB985 /* THTitleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C6E1EDF023700AAB985 /* THTitleLayer.swift */; };
+		1E414C711EDF0CB200AAB985 /* THTransportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C701EDF0CB200AAB985 /* THTransportView.swift */; };
+		1E414C731EDF0D6B00AAB985 /* THVideoPickerOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C721EDF0D6B00AAB985 /* THVideoPickerOverlayView.swift */; };
+		1E414C751EDF0F5800AAB985 /* THVolumeAutomationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C741EDF0F5800AAB985 /* THVolumeAutomationView.swift */; };
+		1E414C791EDF153A00AAB985 /* THAudioItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C781EDF153A00AAB985 /* THAudioItemCollectionViewCell.swift */; };
+		1E414C7F1EDF161100AAB985 /* THTimelineItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C7E1EDF161100AAB985 /* THTimelineItemCell.swift */; };
+		1E414C811EDF166600AAB985 /* THTransitionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C801EDF166600AAB985 /* THTransitionCollectionViewCell.swift */; };
+		1E414C831EDF168500AAB985 /* THVideoItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C821EDF168500AAB985 /* THVideoItemCollectionViewCell.swift */; };
+		1E414C851EDF1B8800AAB985 /* THVideoItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C841EDF1B8800AAB985 /* THVideoItemTableViewCell.swift */; };
+		1E414C871EDF1D9100AAB985 /* THTimelineLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C861EDF1D9100AAB985 /* THTimelineLayout.swift */; };
+		1E414C891EDF24BD00AAB985 /* THTimelineLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C881EDF24BD00AAB985 /* THTimelineLayoutAttributes.swift */; };
+		1E414C8B1EDF3A8800AAB985 /* THAudioPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C8A1EDF3A8800AAB985 /* THAudioPickerViewController.swift */; };
+		1E414C8D1EDF3A9D00AAB985 /* THMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C8C1EDF3A9D00AAB985 /* THMainViewController.swift */; };
+		1E414C8F1EDF3AB100AAB985 /* THPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C8E1EDF3AB100AAB985 /* THPlayerViewController.swift */; };
+		1E414C911EDF3AC300AAB985 /* THSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C901EDF3AC300AAB985 /* THSettingsViewController.swift */; };
+		1E414C931EDF3AD600AAB985 /* THTimelineDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C921EDF3AD600AAB985 /* THTimelineDataSource.swift */; };
+		1E414C951EDF3AE500AAB985 /* THTimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C941EDF3AE500AAB985 /* THTimelineViewController.swift */; };
+		1E414C971EDF3AF300AAB985 /* THTransitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C961EDF3AF300AAB985 /* THTransitionViewController.swift */; };
+		1E414C991EDF3AFF00AAB985 /* THVideoPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C981EDF3AFF00AAB985 /* THVideoPickerViewController.swift */; };
+		1E414C9B1EDF609100AAB985 /* THNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C9A1EDF609100AAB985 /* THNotifications.swift */; };
+		1E414C9D1EE04AEB00AAB985 /* THAVPlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C9C1EE04AEB00AAB985 /* THAVPlayerItem.swift */; };
+		1E414CA01EE069C600AAB985 /* THTabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414C9F1EE069C600AAB985 /* THTabBarButton.swift */; };
+		1E414CA21EE069E500AAB985 /* THTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414CA11EE069E500AAB985 /* THTabBarController.swift */; };
+		1E414CA41EE069F700AAB985 /* THTabBarControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414CA31EE069F700AAB985 /* THTabBarControllerView.swift */; };
+		1E414CA61EE06A0600AAB985 /* THTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414CA51EE06A0600AAB985 /* THTabBarItem.swift */; };
+		1E414CA81EE06A1800AAB985 /* THTabBarRelationshipSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414CA71EE06A1800AAB985 /* THTabBarRelationshipSegue.swift */; };
+		1E414CAA1EE06A2600AAB985 /* THTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E414CA91EE06A2600AAB985 /* THTabBarView.swift */; };
+		1E414CC31EE1A07C00AAB985 /* 00_Gas.mov in Resources */ = {isa = PBXBuildFile; fileRef = 1E414CB71EE1A07C00AAB985 /* 00_Gas.mov */; };
+		1E414CC41EE1A07C00AAB985 /* 00_Swirl.mov in Resources */ = {isa = PBXBuildFile; fileRef = 1E414CB81EE1A07C00AAB985 /* 00_Swirl.mov */; };
+		1E414CC51EE1A07C00AAB985 /* 01_Open.mov in Resources */ = {isa = PBXBuildFile; fileRef = 1E414CB91EE1A07C00AAB985 /* 01_Open.mov */; };
+		1E414CC61EE1A07C00AAB985 /* 02_Skater.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1E414CBA1EE1A07C00AAB985 /* 02_Skater.mp4 */; };
+		1E414CC71EE1A07C00AAB985 /* 03_Car.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1E414CBB1EE1A07C00AAB985 /* 03_Car.mp4 */; };
+		1E414CC81EE1A07C00AAB985 /* 04_Aerial.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1E414CBC1EE1A07C00AAB985 /* 04_Aerial.mp4 */; };
+		1E414CC91EE1A07C00AAB985 /* 05_Close.mov in Resources */ = {isa = PBXBuildFile; fileRef = 1E414CBD1EE1A07C00AAB985 /* 05_Close.mov */; };
 		1EAB1E231EDD43CE00D21FAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAB1E221EDD43CE00D21FAB /* AppDelegate.swift */; };
-		1EAB1E251EDD43CE00D21FAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAB1E241EDD43CE00D21FAB /* ViewController.swift */; };
 		1EAB1E281EDD43CE00D21FAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EAB1E261EDD43CE00D21FAB /* Main.storyboard */; };
 		1EAB1E2A1EDD43CE00D21FAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EAB1E291EDD43CE00D21FAB /* Assets.xcassets */; };
 		1EAB1E2D1EDD43CE00D21FAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EAB1E2B1EDD43CE00D21FAB /* LaunchScreen.storyboard */; };
+		1EAB1E3B1EDD4F3B00D21FAB /* DDProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAB1E3A1EDD4F3B00D21FAB /* DDProgressView.swift */; };
+		1EAB1E3F1EDD52B000D21FAB /* THView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAB1E3E1EDD52B000D21FAB /* THView.swift */; };
+		1EAB1E411EDD5EE500D21FAB /* THBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAB1E401EDD5EE500D21FAB /* THBackgroundView.swift */; };
+		1ED7A7711EE21A3A00B78977 /* John F. Kennedy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 1ED7A76B1EE21A3A00B78977 /* John F. Kennedy.m4a */; };
+		1ED7A7721EE21A3A00B78977 /* Ronald Reagan.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 1ED7A76C1EE21A3A00B78977 /* Ronald Reagan.m4a */; };
+		1ED7A7731EE21A3A00B78977 /* Steve Vai.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 1ED7A76D1EE21A3A00B78977 /* Steve Vai.m4a */; };
+		1ED7A7741EE21A3A00B78977 /* 01 Star Gazing.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 1ED7A76F1EE21A3A00B78977 /* 01 Star Gazing.m4a */; };
+		1ED7A7751EE21A3A00B78977 /* 02 Keep Going.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 1ED7A7701EE21A3A00B78977 /* 02 Keep Going.m4a */; };
+		1ED7A77B1EE26BD600B78977 /* THAudioItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED7A77A1EE26BD600B78977 /* THAudioItemTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E414C381EDD653D00AAB985 /* THExportProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THExportProgressView.swift; path = VideoEditor/Views/THExportProgressView.swift; sourceTree = "<group>"; };
+		1E414C3A1EDD658900AAB985 /* THPlaybackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THPlaybackView.swift; path = VideoEditor/Views/THPlaybackView.swift; sourceTree = "<group>"; };
+		1E414C3C1EDDAD7B00AAB985 /* THTableSectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THTableSectionHeaderView.swift; path = VideoEditor/Views/THTableSectionHeaderView.swift; sourceTree = "<group>"; };
+		1E414C3E1EDDAF1E00AAB985 /* THThumbnailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THThumbnailView.swift; path = VideoEditor/Views/THThumbnailView.swift; sourceTree = "<group>"; };
+		1E414C401EDDB01600AAB985 /* THTimelineItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THTimelineItemView.swift; path = VideoEditor/Views/THTimelineItemView.swift; sourceTree = "<group>"; };
+		1E414C421EDDB14800AAB985 /* THTransitionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THTransitionButton.swift; path = VideoEditor/Views/THTransitionButton.swift; sourceTree = "<group>"; };
+		1E414C441EDDB1FB00AAB985 /* THVideoTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THVideoTransition.swift; path = Models/THVideoTransition.swift; sourceTree = "<group>"; };
+		1E414C461EDDC30500AAB985 /* THAppSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THAppSettings.swift; path = Models/THAppSettings.swift; sourceTree = "<group>"; };
+		1E414C481EDDC75B00AAB985 /* THAudioItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THAudioItem.swift; path = Models/THAudioItem.swift; sourceTree = "<group>"; };
+		1E414C4A1EDDC77800AAB985 /* THTimelineItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THTimelineItem.swift; path = Models/THTimelineItem.swift; sourceTree = "<group>"; };
+		1E414C4C1EDDC7DC00AAB985 /* THMediaItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THMediaItem.swift; path = Models/THMediaItem.swift; sourceTree = "<group>"; };
+		1E414C4E1EDDD4EC00AAB985 /* THTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THTimeline.swift; path = Models/THTimeline.swift; sourceTree = "<group>"; };
+		1E414C501EDDD5EC00AAB985 /* THVideoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THVideoItem.swift; path = Models/THVideoItem.swift; sourceTree = "<group>"; };
+		1E414C521EDDE4FD00AAB985 /* THVolumeAutomation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THVolumeAutomation.swift; path = Models/THVolumeAutomation.swift; sourceTree = "<group>"; };
+		1E414C561EDDE78700AAB985 /* THCompositionBuilderFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THCompositionBuilderFactory.swift; path = Models/Builders/THCompositionBuilderFactory.swift; sourceTree = "<group>"; };
+		1E414C581EDDE8D900AAB985 /* THAdvancedComposition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THAdvancedComposition.swift; path = Models/Builders/Private/THAdvancedComposition.swift; sourceTree = "<group>"; };
+		1E414C5A1EDDE8E500AAB985 /* THAdvancedCompositionBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THAdvancedCompositionBuilder.swift; path = Models/Builders/Private/THAdvancedCompositionBuilder.swift; sourceTree = "<group>"; };
+		1E414C5C1EDDE8F600AAB985 /* THBasicComposition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THBasicComposition.swift; path = Models/Builders/Private/THBasicComposition.swift; sourceTree = "<group>"; };
+		1E414C5E1EDDE90300AAB985 /* THBasicCompositionBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THBasicCompositionBuilder.swift; path = Models/Builders/Private/THBasicCompositionBuilder.swift; sourceTree = "<group>"; };
+		1E414C601EDDE90F00AAB985 /* THTransitionInstructions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THTransitionInstructions.swift; path = Models/Builders/Private/THTransitionInstructions.swift; sourceTree = "<group>"; };
+		1E414C621EDDE91C00AAB985 /* THTimelineBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THTimelineBuilder.swift; path = Models/Builders/THTimelineBuilder.swift; sourceTree = "<group>"; };
+		1E414C651EDEF25E00AAB985 /* THTimelineItemViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THTimelineItemViewModel.swift; path = VideoEditor/Views/Models/THTimelineItemViewModel.swift; sourceTree = "<group>"; };
+		1E414C671EDEF3C500AAB985 /* THVideoTransitionDurationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THVideoTransitionDurationViewModel.swift; path = VideoEditor/Views/Models/THVideoTransitionDurationViewModel.swift; sourceTree = "<group>"; };
+		1E414C691EDEF49F00AAB985 /* THVideoTransitionTypeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THVideoTransitionTypeViewModel.swift; path = VideoEditor/Views/Models/THVideoTransitionTypeViewModel.swift; sourceTree = "<group>"; };
+		1E414C6C1EDF022C00AAB985 /* THCompositionLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THCompositionLayer.swift; path = Models/Layers/THCompositionLayer.swift; sourceTree = "<group>"; };
+		1E414C6E1EDF023700AAB985 /* THTitleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THTitleLayer.swift; path = Models/Layers/THTitleLayer.swift; sourceTree = "<group>"; };
+		1E414C701EDF0CB200AAB985 /* THTransportView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THTransportView.swift; path = VideoEditor/Views/THTransportView.swift; sourceTree = "<group>"; };
+		1E414C721EDF0D6B00AAB985 /* THVideoPickerOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THVideoPickerOverlayView.swift; path = VideoEditor/Views/THVideoPickerOverlayView.swift; sourceTree = "<group>"; };
+		1E414C741EDF0F5800AAB985 /* THVolumeAutomationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THVolumeAutomationView.swift; path = VideoEditor/Views/THVolumeAutomationView.swift; sourceTree = "<group>"; };
+		1E414C781EDF153A00AAB985 /* THAudioItemCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THAudioItemCollectionViewCell.swift; path = Controllers/Cells/THAudioItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		1E414C7E1EDF161100AAB985 /* THTimelineItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THTimelineItemCell.swift; path = Controllers/Cells/THTimelineItemCell.swift; sourceTree = "<group>"; };
+		1E414C801EDF166600AAB985 /* THTransitionCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THTransitionCollectionViewCell.swift; path = Controllers/Cells/THTransitionCollectionViewCell.swift; sourceTree = "<group>"; };
+		1E414C821EDF168500AAB985 /* THVideoItemCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THVideoItemCollectionViewCell.swift; path = Controllers/Cells/THVideoItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		1E414C841EDF1B8800AAB985 /* THVideoItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THVideoItemTableViewCell.swift; path = Controllers/Cells/THVideoItemTableViewCell.swift; sourceTree = "<group>"; };
+		1E414C861EDF1D9100AAB985 /* THTimelineLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THTimelineLayout.swift; path = Controllers/Layouts/THTimelineLayout.swift; sourceTree = "<group>"; };
+		1E414C881EDF24BD00AAB985 /* THTimelineLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THTimelineLayoutAttributes.swift; path = Controllers/Layouts/THTimelineLayoutAttributes.swift; sourceTree = "<group>"; };
+		1E414C8A1EDF3A8800AAB985 /* THAudioPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THAudioPickerViewController.swift; path = Controllers/THAudioPickerViewController.swift; sourceTree = "<group>"; };
+		1E414C8C1EDF3A9D00AAB985 /* THMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THMainViewController.swift; path = Controllers/THMainViewController.swift; sourceTree = "<group>"; };
+		1E414C8E1EDF3AB100AAB985 /* THPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THPlayerViewController.swift; path = Controllers/THPlayerViewController.swift; sourceTree = "<group>"; };
+		1E414C901EDF3AC300AAB985 /* THSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THSettingsViewController.swift; path = Controllers/THSettingsViewController.swift; sourceTree = "<group>"; };
+		1E414C921EDF3AD600AAB985 /* THTimelineDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THTimelineDataSource.swift; path = Controllers/THTimelineDataSource.swift; sourceTree = "<group>"; };
+		1E414C941EDF3AE500AAB985 /* THTimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THTimelineViewController.swift; path = Controllers/THTimelineViewController.swift; sourceTree = "<group>"; };
+		1E414C961EDF3AF300AAB985 /* THTransitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THTransitionViewController.swift; path = Controllers/THTransitionViewController.swift; sourceTree = "<group>"; };
+		1E414C981EDF3AFF00AAB985 /* THVideoPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THVideoPickerViewController.swift; path = Controllers/THVideoPickerViewController.swift; sourceTree = "<group>"; };
+		1E414C9A1EDF609100AAB985 /* THNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THNotifications.swift; path = Common/THNotifications.swift; sourceTree = "<group>"; };
+		1E414C9C1EE04AEB00AAB985 /* THAVPlayerItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THAVPlayerItem.swift; path = Categories/THAVPlayerItem.swift; sourceTree = "<group>"; };
+		1E414C9F1EE069C600AAB985 /* THTabBarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THTabBarButton.swift; path = Common/THTabBar/THTabBarButton.swift; sourceTree = "<group>"; };
+		1E414CA11EE069E500AAB985 /* THTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THTabBarController.swift; path = Common/THTabBar/THTabBarController.swift; sourceTree = "<group>"; };
+		1E414CA31EE069F700AAB985 /* THTabBarControllerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THTabBarControllerView.swift; path = Common/THTabBar/THTabBarControllerView.swift; sourceTree = "<group>"; };
+		1E414CA51EE06A0600AAB985 /* THTabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THTabBarItem.swift; path = Common/THTabBar/THTabBarItem.swift; sourceTree = "<group>"; };
+		1E414CA71EE06A1800AAB985 /* THTabBarRelationshipSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THTabBarRelationshipSegue.swift; path = Common/THTabBar/THTabBarRelationshipSegue.swift; sourceTree = "<group>"; };
+		1E414CA91EE06A2600AAB985 /* THTabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THTabBarView.swift; path = Common/THTabBar/THTabBarView.swift; sourceTree = "<group>"; };
+		1E414CB71EE1A07C00AAB985 /* 00_Gas.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 00_Gas.mov; sourceTree = "<group>"; };
+		1E414CB81EE1A07C00AAB985 /* 00_Swirl.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 00_Swirl.mov; sourceTree = "<group>"; };
+		1E414CB91EE1A07C00AAB985 /* 01_Open.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 01_Open.mov; sourceTree = "<group>"; };
+		1E414CBA1EE1A07C00AAB985 /* 02_Skater.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 02_Skater.mp4; sourceTree = "<group>"; };
+		1E414CBB1EE1A07C00AAB985 /* 03_Car.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 03_Car.mp4; sourceTree = "<group>"; };
+		1E414CBC1EE1A07C00AAB985 /* 04_Aerial.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 04_Aerial.mp4; sourceTree = "<group>"; };
+		1E414CBD1EE1A07C00AAB985 /* 05_Close.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 05_Close.mov; sourceTree = "<group>"; };
 		1EAB1E1F1EDD43CE00D21FAB /* VideoEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EAB1E221EDD43CE00D21FAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1EAB1E241EDD43CE00D21FAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1EAB1E271EDD43CE00D21FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1EAB1E291EDD43CE00D21FAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EAB1E291EDD43CE00D21FAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = VideoEditor/Assets.xcassets; sourceTree = "<group>"; };
 		1EAB1E2C1EDD43CE00D21FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1EAB1E2E1EDD43CE00D21FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EAB1E2E1EDD43CE00D21FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = VideoEditor/Info.plist; sourceTree = "<group>"; };
+		1EAB1E3A1EDD4F3B00D21FAB /* DDProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DDProgressView.swift; path = VideoEditor/Views/DDProgressView.swift; sourceTree = "<group>"; };
+		1EAB1E3E1EDD52B000D21FAB /* THView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THView.swift; path = Categories/THView.swift; sourceTree = "<group>"; };
+		1EAB1E401EDD5EE500D21FAB /* THBackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THBackgroundView.swift; path = VideoEditor/Views/THBackgroundView.swift; sourceTree = "<group>"; };
+		1ED7A76B1EE21A3A00B78977 /* John F. Kennedy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "John F. Kennedy.m4a"; path = "Commentary/John F. Kennedy.m4a"; sourceTree = "<group>"; };
+		1ED7A76C1EE21A3A00B78977 /* Ronald Reagan.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ronald Reagan.m4a"; path = "Commentary/Ronald Reagan.m4a"; sourceTree = "<group>"; };
+		1ED7A76D1EE21A3A00B78977 /* Steve Vai.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Steve Vai.m4a"; path = "Commentary/Steve Vai.m4a"; sourceTree = "<group>"; };
+		1ED7A76F1EE21A3A00B78977 /* 01 Star Gazing.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "01 Star Gazing.m4a"; sourceTree = "<group>"; };
+		1ED7A7701EE21A3A00B78977 /* 02 Keep Going.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "02 Keep Going.m4a"; sourceTree = "<group>"; };
+		1ED7A77A1EE26BD600B78977 /* THAudioItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = THAudioItemTableViewCell.swift; path = Controllers/Cells/THAudioItemTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +169,115 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E414C541EDDE6E000AAB985 /* Builders */ = {
+			isa = PBXGroup;
+			children = (
+				1E414C551EDDE6F200AAB985 /* Private */,
+				1E414C561EDDE78700AAB985 /* THCompositionBuilderFactory.swift */,
+				1E414C621EDDE91C00AAB985 /* THTimelineBuilder.swift */,
+			);
+			name = Builders;
+			sourceTree = "<group>";
+		};
+		1E414C551EDDE6F200AAB985 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				1E414C581EDDE8D900AAB985 /* THAdvancedComposition.swift */,
+				1E414C5A1EDDE8E500AAB985 /* THAdvancedCompositionBuilder.swift */,
+				1E414C5C1EDDE8F600AAB985 /* THBasicComposition.swift */,
+				1E414C5E1EDDE90300AAB985 /* THBasicCompositionBuilder.swift */,
+				1E414C601EDDE90F00AAB985 /* THTransitionInstructions.swift */,
+			);
+			name = Private;
+			sourceTree = "<group>";
+		};
+		1E414C641EDEF24A00AAB985 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1E414C651EDEF25E00AAB985 /* THTimelineItemViewModel.swift */,
+				1E414C671EDEF3C500AAB985 /* THVideoTransitionDurationViewModel.swift */,
+				1E414C691EDEF49F00AAB985 /* THVideoTransitionTypeViewModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		1E414C6B1EDF021500AAB985 /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+				1E414C6C1EDF022C00AAB985 /* THCompositionLayer.swift */,
+				1E414C6E1EDF023700AAB985 /* THTitleLayer.swift */,
+			);
+			name = Layers;
+			sourceTree = "<group>";
+		};
+		1E414C761EDF150C00AAB985 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1E414C781EDF153A00AAB985 /* THAudioItemCollectionViewCell.swift */,
+				1E414C7E1EDF161100AAB985 /* THTimelineItemCell.swift */,
+				1E414C801EDF166600AAB985 /* THTransitionCollectionViewCell.swift */,
+				1E414C821EDF168500AAB985 /* THVideoItemCollectionViewCell.swift */,
+				1E414C841EDF1B8800AAB985 /* THVideoItemTableViewCell.swift */,
+				1ED7A77A1EE26BD600B78977 /* THAudioItemTableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		1E414C771EDF151800AAB985 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				1E414C861EDF1D9100AAB985 /* THTimelineLayout.swift */,
+				1E414C881EDF24BD00AAB985 /* THTimelineLayoutAttributes.swift */,
+			);
+			name = Layouts;
+			sourceTree = "<group>";
+		};
+		1E414C9E1EE069A900AAB985 /* THTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				1E414C9F1EE069C600AAB985 /* THTabBarButton.swift */,
+				1E414CA11EE069E500AAB985 /* THTabBarController.swift */,
+				1E414CA31EE069F700AAB985 /* THTabBarControllerView.swift */,
+				1E414CA51EE06A0600AAB985 /* THTabBarItem.swift */,
+				1E414CA71EE06A1800AAB985 /* THTabBarRelationshipSegue.swift */,
+				1E414CA91EE06A2600AAB985 /* THTabBarView.swift */,
+			);
+			name = THTabBar;
+			sourceTree = "<group>";
+		};
+		1E414CAD1EE1A07C00AAB985 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1E414CAE1EE1A07C00AAB985 /* Audio */,
+				1E414CB61EE1A07C00AAB985 /* Video */,
+			);
+			name = Resources;
+			path = VideoEditor/Resources;
+			sourceTree = "<group>";
+		};
+		1E414CAE1EE1A07C00AAB985 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				1ED7A7771EE22E5C00B78977 /* Commentary */,
+				1ED7A76E1EE21A3A00B78977 /* Music */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		1E414CB61EE1A07C00AAB985 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				1E414CB71EE1A07C00AAB985 /* 00_Gas.mov */,
+				1E414CB81EE1A07C00AAB985 /* 00_Swirl.mov */,
+				1E414CB91EE1A07C00AAB985 /* 01_Open.mov */,
+				1E414CBA1EE1A07C00AAB985 /* 02_Skater.mp4 */,
+				1E414CBB1EE1A07C00AAB985 /* 03_Car.mp4 */,
+				1E414CBC1EE1A07C00AAB985 /* 04_Aerial.mp4 */,
+				1E414CBD1EE1A07C00AAB985 /* 05_Close.mov */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
 		1EAB1E161EDD43CE00D21FAB = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +297,119 @@
 		1EAB1E211EDD43CE00D21FAB /* VideoEditor */ = {
 			isa = PBXGroup;
 			children = (
+				1EAB1E381EDD4ECB00D21FAB /* Views */,
+				1EAB1E371EDD4EC400D21FAB /* Models */,
+				1EAB1E361EDD4EB500D21FAB /* Controllers */,
+				1EAB1E351EDD4EAE00D21FAB /* Common */,
+				1EAB1E341EDD4E9A00D21FAB /* Categories */,
+				1EAB1E391EDD4ED900D21FAB /* Supporting Files */,
+			);
+			path = VideoEditor;
+			sourceTree = "<group>";
+		};
+		1EAB1E341EDD4E9A00D21FAB /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				1EAB1E3E1EDD52B000D21FAB /* THView.swift */,
+				1E414C9C1EE04AEB00AAB985 /* THAVPlayerItem.swift */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		1EAB1E351EDD4EAE00D21FAB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1E414C9E1EE069A900AAB985 /* THTabBar */,
 				1EAB1E221EDD43CE00D21FAB /* AppDelegate.swift */,
-				1EAB1E241EDD43CE00D21FAB /* ViewController.swift */,
+				1E414C9A1EDF609100AAB985 /* THNotifications.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		1EAB1E361EDD4EB500D21FAB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1E414C771EDF151800AAB985 /* Layouts */,
+				1E414C761EDF150C00AAB985 /* Cells */,
+				1E414C8C1EDF3A9D00AAB985 /* THMainViewController.swift */,
+				1E414C8E1EDF3AB100AAB985 /* THPlayerViewController.swift */,
+				1E414C901EDF3AC300AAB985 /* THSettingsViewController.swift */,
+				1E414C921EDF3AD600AAB985 /* THTimelineDataSource.swift */,
+				1E414C941EDF3AE500AAB985 /* THTimelineViewController.swift */,
+				1E414C961EDF3AF300AAB985 /* THTransitionViewController.swift */,
+				1E414C8A1EDF3A8800AAB985 /* THAudioPickerViewController.swift */,
+				1E414C981EDF3AFF00AAB985 /* THVideoPickerViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		1EAB1E371EDD4EC400D21FAB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1E414C6B1EDF021500AAB985 /* Layers */,
+				1E414C541EDDE6E000AAB985 /* Builders */,
+				1E414C441EDDB1FB00AAB985 /* THVideoTransition.swift */,
+				1E414C461EDDC30500AAB985 /* THAppSettings.swift */,
+				1E414C4A1EDDC77800AAB985 /* THTimelineItem.swift */,
+				1E414C4C1EDDC7DC00AAB985 /* THMediaItem.swift */,
+				1E414C481EDDC75B00AAB985 /* THAudioItem.swift */,
+				1E414C4E1EDDD4EC00AAB985 /* THTimeline.swift */,
+				1E414C501EDDD5EC00AAB985 /* THVideoItem.swift */,
+				1E414C521EDDE4FD00AAB985 /* THVolumeAutomation.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		1EAB1E381EDD4ECB00D21FAB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1E414C641EDEF24A00AAB985 /* Models */,
+				1EAB1E3A1EDD4F3B00D21FAB /* DDProgressView.swift */,
+				1EAB1E401EDD5EE500D21FAB /* THBackgroundView.swift */,
+				1E414C381EDD653D00AAB985 /* THExportProgressView.swift */,
+				1E414C3A1EDD658900AAB985 /* THPlaybackView.swift */,
+				1E414C3C1EDDAD7B00AAB985 /* THTableSectionHeaderView.swift */,
+				1E414C3E1EDDAF1E00AAB985 /* THThumbnailView.swift */,
+				1E414C401EDDB01600AAB985 /* THTimelineItemView.swift */,
+				1E414C421EDDB14800AAB985 /* THTransitionButton.swift */,
+				1E414C701EDF0CB200AAB985 /* THTransportView.swift */,
+				1E414C721EDF0D6B00AAB985 /* THVideoPickerOverlayView.swift */,
+				1E414C741EDF0F5800AAB985 /* THVolumeAutomationView.swift */,
+			);
+			name = Views;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		1EAB1E391EDD4ED900D21FAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E414CAD1EE1A07C00AAB985 /* Resources */,
 				1EAB1E261EDD43CE00D21FAB /* Main.storyboard */,
 				1EAB1E291EDD43CE00D21FAB /* Assets.xcassets */,
 				1EAB1E2B1EDD43CE00D21FAB /* LaunchScreen.storyboard */,
 				1EAB1E2E1EDD43CE00D21FAB /* Info.plist */,
 			);
-			path = VideoEditor;
+			name = "Supporting Files";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		1ED7A76E1EE21A3A00B78977 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				1ED7A76F1EE21A3A00B78977 /* 01 Star Gazing.m4a */,
+				1ED7A7701EE21A3A00B78977 /* 02 Keep Going.m4a */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		1ED7A7771EE22E5C00B78977 /* Commentary */ = {
+			isa = PBXGroup;
+			children = (
+				1ED7A76B1EE21A3A00B78977 /* John F. Kennedy.m4a */,
+				1ED7A76C1EE21A3A00B78977 /* Ronald Reagan.m4a */,
+				1ED7A76D1EE21A3A00B78977 /* Steve Vai.m4a */,
+			);
+			name = Commentary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +444,7 @@
 				TargetAttributes = {
 					1EAB1E1E1EDD43CE00D21FAB = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = NX8AL2SGXY;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,9 +472,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ED7A7711EE21A3A00B78977 /* John F. Kennedy.m4a in Resources */,
 				1EAB1E2D1EDD43CE00D21FAB /* LaunchScreen.storyboard in Resources */,
+				1E414CC41EE1A07C00AAB985 /* 00_Swirl.mov in Resources */,
+				1ED7A7751EE21A3A00B78977 /* 02 Keep Going.m4a in Resources */,
+				1E414CC91EE1A07C00AAB985 /* 05_Close.mov in Resources */,
+				1E414CC61EE1A07C00AAB985 /* 02_Skater.mp4 in Resources */,
+				1E414CC71EE1A07C00AAB985 /* 03_Car.mp4 in Resources */,
+				1E414CC31EE1A07C00AAB985 /* 00_Gas.mov in Resources */,
+				1ED7A7731EE21A3A00B78977 /* Steve Vai.m4a in Resources */,
+				1E414CC51EE1A07C00AAB985 /* 01_Open.mov in Resources */,
+				1ED7A7741EE21A3A00B78977 /* 01 Star Gazing.m4a in Resources */,
 				1EAB1E2A1EDD43CE00D21FAB /* Assets.xcassets in Resources */,
+				1E414CC81EE1A07C00AAB985 /* 04_Aerial.mp4 in Resources */,
 				1EAB1E281EDD43CE00D21FAB /* Main.storyboard in Resources */,
+				1ED7A7721EE21A3A00B78977 /* Ronald Reagan.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +497,63 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EAB1E251EDD43CE00D21FAB /* ViewController.swift in Sources */,
+				1EAB1E3B1EDD4F3B00D21FAB /* DDProgressView.swift in Sources */,
+				1E414C8B1EDF3A8800AAB985 /* THAudioPickerViewController.swift in Sources */,
+				1E414C391EDD653D00AAB985 /* THExportProgressView.swift in Sources */,
+				1E414C931EDF3AD600AAB985 /* THTimelineDataSource.swift in Sources */,
+				1E414C991EDF3AFF00AAB985 /* THVideoPickerViewController.swift in Sources */,
+				1E414C8F1EDF3AB100AAB985 /* THPlayerViewController.swift in Sources */,
+				1E414C511EDDD5EC00AAB985 /* THVideoItem.swift in Sources */,
+				1E414C7F1EDF161100AAB985 /* THTimelineItemCell.swift in Sources */,
+				1E414C731EDF0D6B00AAB985 /* THVideoPickerOverlayView.swift in Sources */,
+				1E414C4B1EDDC77800AAB985 /* THTimelineItem.swift in Sources */,
+				1E414C491EDDC75B00AAB985 /* THAudioItem.swift in Sources */,
+				1E414C951EDF3AE500AAB985 /* THTimelineViewController.swift in Sources */,
+				1E414C631EDDE91C00AAB985 /* THTimelineBuilder.swift in Sources */,
+				1E414C681EDEF3C500AAB985 /* THVideoTransitionDurationViewModel.swift in Sources */,
+				1E414C611EDDE90F00AAB985 /* THTransitionInstructions.swift in Sources */,
+				1EAB1E411EDD5EE500D21FAB /* THBackgroundView.swift in Sources */,
+				1EAB1E3F1EDD52B000D21FAB /* THView.swift in Sources */,
+				1E414C5B1EDDE8E500AAB985 /* THAdvancedCompositionBuilder.swift in Sources */,
+				1E414C751EDF0F5800AAB985 /* THVolumeAutomationView.swift in Sources */,
+				1E414C6F1EDF023700AAB985 /* THTitleLayer.swift in Sources */,
+				1E414C4D1EDDC7DC00AAB985 /* THMediaItem.swift in Sources */,
+				1E414C891EDF24BD00AAB985 /* THTimelineLayoutAttributes.swift in Sources */,
+				1E414C661EDEF25E00AAB985 /* THTimelineItemViewModel.swift in Sources */,
+				1E414C9D1EE04AEB00AAB985 /* THAVPlayerItem.swift in Sources */,
+				1ED7A77B1EE26BD600B78977 /* THAudioItemTableViewCell.swift in Sources */,
+				1E414CA81EE06A1800AAB985 /* THTabBarRelationshipSegue.swift in Sources */,
+				1E414CA21EE069E500AAB985 /* THTabBarController.swift in Sources */,
+				1E414C6A1EDEF49F00AAB985 /* THVideoTransitionTypeViewModel.swift in Sources */,
+				1E414C3B1EDD658900AAB985 /* THPlaybackView.swift in Sources */,
+				1E414C3F1EDDAF1E00AAB985 /* THThumbnailView.swift in Sources */,
+				1E414C811EDF166600AAB985 /* THTransitionCollectionViewCell.swift in Sources */,
+				1E414CA41EE069F700AAB985 /* THTabBarControllerView.swift in Sources */,
+				1E414C5D1EDDE8F600AAB985 /* THBasicComposition.swift in Sources */,
+				1E414CA61EE06A0600AAB985 /* THTabBarItem.swift in Sources */,
+				1E414C8D1EDF3A9D00AAB985 /* THMainViewController.swift in Sources */,
+				1E414CAA1EE06A2600AAB985 /* THTabBarView.swift in Sources */,
+				1E414C791EDF153A00AAB985 /* THAudioItemCollectionViewCell.swift in Sources */,
+				1E414C531EDDE4FD00AAB985 /* THVolumeAutomation.swift in Sources */,
+				1E414C711EDF0CB200AAB985 /* THTransportView.swift in Sources */,
+				1E414C3D1EDDAD7B00AAB985 /* THTableSectionHeaderView.swift in Sources */,
+				1E414C911EDF3AC300AAB985 /* THSettingsViewController.swift in Sources */,
+				1E414C571EDDE78700AAB985 /* THCompositionBuilderFactory.swift in Sources */,
+				1E414C851EDF1B8800AAB985 /* THVideoItemTableViewCell.swift in Sources */,
+				1E414C591EDDE8D900AAB985 /* THAdvancedComposition.swift in Sources */,
+				1E414C871EDF1D9100AAB985 /* THTimelineLayout.swift in Sources */,
+				1E414C451EDDB1FB00AAB985 /* THVideoTransition.swift in Sources */,
+				1E414C411EDDB01600AAB985 /* THTimelineItemView.swift in Sources */,
+				1E414C6D1EDF022C00AAB985 /* THCompositionLayer.swift in Sources */,
+				1E414C5F1EDDE90300AAB985 /* THBasicCompositionBuilder.swift in Sources */,
+				1E414C431EDDB14800AAB985 /* THTransitionButton.swift in Sources */,
+				1E414C9B1EDF609100AAB985 /* THNotifications.swift in Sources */,
+				1E414C4F1EDDD4EC00AAB985 /* THTimeline.swift in Sources */,
+				1E414C471EDDC30500AAB985 /* THAppSettings.swift in Sources */,
 				1EAB1E231EDD43CE00D21FAB /* AppDelegate.swift in Sources */,
+				1E414C971EDF3AF300AAB985 /* THTransitionViewController.swift in Sources */,
+				1E414C831EDF168500AAB985 /* THVideoItemCollectionViewCell.swift in Sources */,
+				1E414CA01EE069C600AAB985 /* THTabBarButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +566,7 @@
 				1EAB1E271EDD43CE00D21FAB /* Base */,
 			);
 			name = Main.storyboard;
+			path = VideoEditor;
 			sourceTree = "<group>";
 		};
 		1EAB1E2B1EDD43CE00D21FAB /* LaunchScreen.storyboard */ = {
@@ -158,6 +575,7 @@
 				1EAB1E2C1EDD43CE00D21FAB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = VideoEditor;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -262,9 +680,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NX8AL2SGXY;
 				INFOPLIST_FILE = VideoEditor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Joel.VideoEditor;
+				PRODUCT_BUNDLE_IDENTIFIER = Joel.Sezzwho;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -274,9 +693,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NX8AL2SGXY;
 				INFOPLIST_FILE = VideoEditor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Joel.VideoEditor;
+				PRODUCT_BUNDLE_IDENTIFIER = Joel.Sezzwho;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -301,6 +721,7 @@
 				1EAB1E331EDD43CE00D21FAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

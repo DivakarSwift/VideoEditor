@@ -12,13 +12,62 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var mainViewController: THMainViewController?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        let _ = mainViewController?.prefersStatusBarHidden
+        mainViewController = self.window?.rootViewController as? THMainViewController
+        
+        let bgImage = #imageLiteral(resourceName: "tb_background")
+        bgImage.resizableImage(withCapInsets: UIEdgeInsets(top: 0, left: 3, bottom: 0, right: 3))
+        THTabBarView.appearance().backgroundImage = bgImage
+        
+        let navbarImage = #imageLiteral(resourceName: "app_navbar_background")
+        navbarImage.resizableImage(withCapInsets: UIEdgeInsets(top: 0, left: 3, bottom: 0, right: 3))
+        mainViewController?.navigationController?.navigationBar.setBackgroundImage(navbarImage, for: .default)
+        
         return true
     }
 
+    static func sharedDelegate() -> AppDelegate {
+        return (UIApplication.shared.delegate as? AppDelegate)!
+    }
+    
+    func prepareMainViewController() {
+        self.mainViewController?.timelineViewController = self.childViewController(ofType: THTimelineViewController.classForCoder()) as? THTimelineViewController
+        self.mainViewController?.playerViewController = self.childViewController(ofType: THPlayerViewController.classForCoder()) as? THPlayerViewController
+        self.mainViewController?.videoPickerViewController = self.childViewController(ofType: THVideoPickerViewController.classForCoder()) as? THVideoPickerViewController
+        self.mainViewController?.audioPickerViewController = self.childViewController(ofType: THAudioPickerViewController.classForCoder()) as? THAudioPickerViewController
+        self.mainViewController?.videoPickerViewController?.playbackMediator = self.mainViewController
+        self.mainViewController?.audioPickerViewController?.playbackMediator = self.mainViewController
+        self.mainViewController?.playerViewController?.playbackMediator = self.mainViewController
+        
+        assert(self.mainViewController?.timelineViewController != nil, "THTimelineViewController not set.")
+        assert(self.mainViewController?.playerViewController != nil, "THPlayerViewController not set.")
+        assert(self.mainViewController?.videoPickerViewController != nil, "THVideoPickerViewController not set.")
+        assert(self.mainViewController?.audioPickerViewController != nil, "THAudioPickerViewController not set.")
+    }
+    
+    func childViewController(ofType type: AnyClass) -> UIViewController? {
+        for controller in (self.mainViewController?.childViewControllers)! {
+            if controller.classForCoder == type {
+                return controller
+            }
+            if controller is THTabBarController {
+                for childController in controller.childViewControllers {
+                    let navcontroller = childController as? UINavigationController
+                    if String(describing: navcontroller?.topViewController.self).contains(String(describing: type)) {
+                        return (navcontroller?.topViewController)!
+                    }
+                }
+            }
+        }
+        assert(false, "Request controller of type \(type) was not found.")
+        return nil
+    }
+    
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
